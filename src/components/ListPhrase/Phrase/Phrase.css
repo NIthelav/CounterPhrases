@@ -1,0 +1,27 @@
+.phrase {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  margin-bottom: 10px;
+}
+
+.phrase__countInput {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.phrase__nameInput {
+  margin: 0 10px;
+  width: 100%;
+}
+
+@media (screen < 600px) {
+  .phrase {
+    width: 90vw;
+  }
+
+  .phrase__nameInput {
+    min-width: 100%;
+  }
+}

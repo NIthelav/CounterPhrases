@@ -1,0 +1,24 @@
+.listPhrase {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.listPhrase__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+}
+
+.listPhrase__input {
+  width: 60vw;
+  height: 40px;
+}
+
+.listPhrase__button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
